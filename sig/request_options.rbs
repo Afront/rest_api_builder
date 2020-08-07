@@ -1,0 +1,9 @@
+class RestAPIBuilder::RequestOptions
+  include UrlHelper
+
+  public
+
+  def compose: (base_url: untyped, method: untyped, ?path: untyped, ?body: untyped, ?headers: untyped, ?query: untyped) -> untyped
+
+  def compose_json: (**untyped) -> untyped
+end

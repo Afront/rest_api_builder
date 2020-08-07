@@ -1,0 +1,17 @@
+class RestAPIBuilder::ResponseHandler
+  public
+
+  def handle_json_response: (**untyped) { (*untyped) -> untyped } -> untyped
+
+  def handle_response: (?logger: untyped) { (*untyped) -> untyped } -> untyped
+
+  def handle_response_error: () -> untyped
+
+  private
+
+  def maybe_log_result: (untyped result, logger: untyped) -> untyped
+
+  def parse_json: (untyped json) -> untyped
+
+  def parse_response: (raw_response: untyped, success: untyped) -> untyped
+end

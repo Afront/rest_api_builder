@@ -1,0 +1,5 @@
+module RestAPIBuilder::UrlHelper
+  public
+
+  def full_url: (untyped url, untyped path) -> untyped
+end
