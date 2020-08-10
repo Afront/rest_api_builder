@@ -5,7 +5,7 @@ class RestAPIBuilder::ResponseHandler
 
   def handle_response: (?logger: untyped) { (*untyped) -> untyped } -> untyped
 
-  def handle_response_error: () -> untyped
+  def handle_response_error: ()  { (*untyped) -> untyped } -> untyped
 
   private
 

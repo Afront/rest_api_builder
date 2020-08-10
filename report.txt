@@ -1,0 +1,9 @@
+
+# Running tests with run options --seed 35742:
+
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m
+
+[32mFinished tests in 0.990146s, 37.3682 tests/s, 66.6568 assertions/s.[0m
+
+
+[32m37 tests, 66 assertions, 0 failures, 0 errors, 0 skips[0m

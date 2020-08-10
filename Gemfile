@@ -5,5 +5,5 @@ gemspec
 group :test do
   gem 'minitest-reporters'
   gem 'rake'
-  gem 'rbs'
+  gem 'rbs', path: '../../rbs'
 end

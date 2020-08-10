@@ -1,9 +1,9 @@
 module RestAPIBuilder
   public
 
-  def compose_json_request_options: (*untyped args) { (*untyped) -> untyped } -> untyped
+  def compose_json_request_options: (*untyped args)-> untyped
 
-  def compose_request_options: (*untyped args) { (*untyped) -> untyped } -> untyped
+  def compose_request_options: (*untyped args) -> untyped
 
   def handle_json_response: (*untyped args) { (*untyped) -> untyped } -> untyped
 
@@ -12,4 +12,6 @@ module RestAPIBuilder
   def handle_response_error: (*untyped args) { (*untyped) -> untyped } -> untyped
 
   def rest_api_builder_helpers: () -> untyped
+
+  def ahhh: () -> untyped
 end

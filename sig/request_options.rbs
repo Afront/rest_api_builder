@@ -1,5 +1,5 @@
 class RestAPIBuilder::RequestOptions
-  include UrlHelper
+  include RestAPIBuilder::UrlHelper
 
   public
 
